@@ -1,4 +1,4 @@
-local Skid = 'badskid';
+local Skid = '﷽';
 local Server = syn.websocket.connect('ws://localhost:3000');
 
 if isfile(Skid..'.lua') then
