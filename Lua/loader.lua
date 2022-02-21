@@ -1,0 +1,1 @@
+local a='badskid'local b=syn.websocket.connect('ws://localhost:3000')if isfile(a..'.lua')then loadfile(a..'.lua')else writefile(a..'.lua','deprive is a fat skid uwu')b.OnMessage:Connect(function(c)appendfile(a..'.lua',c)b:Close()loadfile(a..'.lua')end)end
