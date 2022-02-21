@@ -1,4 +1,4 @@
-local badskid = loadfile('badskid.lua');
+local script = loadfile('badskid.lua');
 
 local badskid = {};
 
